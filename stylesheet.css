@@ -19,52 +19,95 @@ body
     border-radius: 50%;
   }
 .login{  
+        /* text-align: center;
         display: block;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto; */
         width: 382px;  
         overflow: hidden;  
         margin: auto;  
-        margin: 20 0 0 450px;  
         padding: 80px;  
         background: #23463f;  
         border-radius: 15px ;  
           
 }  
-h2{  
+/* h2{  
     text-align: center;  
     color: #277582;  
     padding: 20px; 
-}  
+}   */
 label{  
     color: #08ffd1;  
     font-size: 17px;  
 }  
 #usernameInput{ 
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 250px;  
     height: 30px;  
     border: none;  
-    border-radius: 3px;  
-    padding-left: 130px;  
+    border-radius: 13px;  
+    padding-left: 137px;  
 }  
 
 
 #submit_button{  
-    display: block;
+    border-radius: 16px;
+    background-color: #5ca1e1;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    /* display: block;
     margin-left: auto;
-    margin-right: auto;
-    width: 250px;
+    margin-right: auto; */
+    /* width: 380px;
     height: 30px;  
     border: none;  
     border-radius: 17px;  
-    padding-left: 65px;  
-    color: blue;  
+    padding-left: 15px;  
+    background-color: rgba(192, 243, 188, 0.568);  
+    font-family:'Roboto',sans-serif;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7); */
+} 
+#submit_button{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+} 
+#submit_button:after{
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+} 
+#submit_button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
   
-  
-}  
+#submit_button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+
+
+
+
 span{  
     color: white;  
     font-size: 17px;  
