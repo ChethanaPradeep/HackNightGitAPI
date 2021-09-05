@@ -7,6 +7,7 @@ Uses your Github User Id to create your Resume
 
 # How to use
 Provide your Id and click 'Create Resume'.
+(PS. Do scroll down the page after, its a work in progress =)))
 
 # Webpage
 [Get your Resume here](https://chethanapradeep.github.io/HackNightGitAPI/)
