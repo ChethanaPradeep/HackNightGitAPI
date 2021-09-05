@@ -55,6 +55,7 @@ function requestUserRepos(username){
                 <p><strong>Repo:</strong> ${data[i].name}</p>
                 <p><strong>Description:</strong> ${data[i].description}</p>
                 <p><strong>URL:</strong> <a href="${data[i].html_url}">${data[i].html_url}</a></p>
+                <p>=========================================================<\p>
             `);
             
             // Append each li to the ul
