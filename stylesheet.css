@@ -66,8 +66,8 @@ label{
     margin: 36px;
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
     display: block;
-    margin-left: auto;
-    margin-right: auto; 
+    /* margin-left: auto; */
+    /* margin-right: auto;  */
     /* /* width: 380px; */
     height: 30px;  
     border: none;  
@@ -87,7 +87,13 @@ label{
     display: inline-block;
     position: center;
     transition: 0.5s;
+
 } 
+
+.align-middle {
+    vertical-align: middle;
+  }
+  
 #submit_button:after{
     content: '»';
     position: absolute;
