@@ -50,7 +50,8 @@ label{
     border: none;  
     border-radius: 13px;  
     padding-left: 137px;  
-}  
+} 
+
 #submit_button {  
     border-radius: 16px;
     background-color: #5ca1e1;
@@ -66,13 +67,13 @@ label{
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
     display: block;
     margin-left: auto;
-    margin-right: auto; */
+    margin-right: auto; 
     /* /* width: 380px; */
-    /* height: 30px;  
+    height: 30px;  
     border: none;  
     border-radius: 17px;  
-    padding-left: 15px;   */
-    /* background-color: rgba(192, 243, 188, 0.568);  
+    padding-left: 15px;  
+    background-color: rgba(192, 243, 188, 0.568);  
     font-family:'Roboto',sans-serif;
     transition: all 0.5s;
     cursor: pointer;
@@ -81,38 +82,7 @@ label{
 }
 
 
-
-
-
-/* #submit_button{   */
-    /* border-radius: 16px;
-    background-color: #5ca1e1;
-    border: none;
-    color: #fff;
-    text-align: center;
-    font-size: 32px;
-    padding: 16px;
-    width: 300px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 36px;
-    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
-    display: block;
-    margin-left: auto;
-    margin-right: auto; */
-    /* /* width: 380px; */
-    /* height: 30px;  
-    border: none;  
-    border-radius: 17px;  
-    padding-left: 15px;   */
-    /* background-color: rgba(192, 243, 188, 0.568);  
-    font-family:'Roboto',sans-serif;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 36px;
-    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);  */
-/* }  */
-/* #submit_button{
+#submit_button{
     cursor: pointer;
     display: inline-block;
     position: relative;
@@ -135,26 +105,9 @@ label{
     opacity: 1;
     right: 10px;
   }
- */
-
- #submit_button span {  
-    cursor: pointer; 
-    display: inline-block; 
-    position: relative; 
-    transition: 0.5s;}
 
 
-    #submit_button span:after {
-    content: '\00bb';  /* CSS Entities. To use HTML Entities, use →*/
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;}
-     
-    #submit_button:hover span {  padding-right: 25px;}
 
-    #submit_button:hover span:after {  opacity: 1;  right: 0;}
 
 
  span{  
