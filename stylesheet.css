@@ -74,12 +74,12 @@ label{
     border: none;  
     border-radius: 17px;  
     padding-left: 15px;  
-    background-color: rgba(192, 243, 188, 0.568);  
+    /* background-color: rgba(192, 243, 188, 0.568);  
     font-family:'Roboto',sans-serif;
     transition: all 0.5s;
     cursor: pointer;
     margin: 36px;
-    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7); 
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);  */
 } 
 #submit_button{
     cursor: pointer;
