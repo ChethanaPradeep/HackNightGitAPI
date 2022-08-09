@@ -90,10 +90,8 @@ label{
 
 } 
 
-.align-middle {
-    vertical-align: middle;
-  }
-  
+
+
 #submit_button:after{
     content: '»';
     position: absolute;
