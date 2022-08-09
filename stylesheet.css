@@ -123,14 +123,14 @@ label{
  */
 
 
-.submit_button span {  
+submit_button span {  
     cursor: pointer; 
     display: inline-block; 
     position: relative; 
     transition: 0.5s;}
 
 
-.submit_button span:after {
+submit_button span:after {
     content: '\00bb';  /* CSS Entities. To use HTML Entities, use →*/
     position: absolute;
     opacity: 0;
@@ -138,9 +138,9 @@ label{
     right: -20px;
     transition: 0.5s;}
      
-.submit_button:hover span {  padding-right: 25px;}
+submit_button:hover span {  padding-right: 25px;}
 
-.submit_button:hover span:after {  opacity: 1;  right: 0;}
+submit_button:hover span:after {  opacity: 1;  right: 0;}
 
 
 /* span{  
